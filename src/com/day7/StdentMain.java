@@ -7,6 +7,8 @@ public class StdentMain {
 
 		Hostelite hl = new Hostelite(10, "Hostelite", "Gowtham", "P", "Nilgiri", 3);
 		DayScholar ds = new DayScholar(10, "DayScholar", "Sai Suhas", "P ", "Kavandala Sira");
+		ds.displayStudentDetals();
+		hl.displayStudentDetals();
 		ds.setFeesPerMonth(1000);
 		hl.setFeesPerMonth(1500);
 		System.out.println(hl);

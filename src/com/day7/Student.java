@@ -56,6 +56,12 @@ public class Student {
 	public void check() {
 		
 	}*/
+	public void displayStudentDetals() {
+		System.out.println("Student Name:\t"+this.sName);
+		System.out.println("Student Id:\t"+this.sId);
+		System.out.println("Student Residential Status:\t"+this.residentialStatus);
+		System.out.println("Student FeePerMonth:\t"+this.feesPerMonth);
+	}
 	
 
 }
